@@ -1,0 +1,16 @@
+// For format details see https://aka.ms/devcontainer.json
+{
+    "name": "algorithmsprogramming22WiSe",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "tomoki1207.pdf"
+    ]
+}
